@@ -1,3 +1,4 @@
+---
 ## Visual Demonstration
 
 This section shows the Secure File Encryptor in action, walking through the process of selecting, encrypting, and decrypting a file.
@@ -10,3 +11,4 @@ This section shows the Secure File Encryptor in action, walking through the proc
 
 3. **Output 2**: After selecting the encrypted file and entering the password, click "Decrypt File." The file is decrypted, and a success message confirms the hash matches, verifying integrity. The original content is restored.  
    ![Output 2](output2.png)
+---
