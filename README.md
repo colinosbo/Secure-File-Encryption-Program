@@ -43,7 +43,7 @@ Secure File Encryptor is a Python-based desktop application that allows users to
 This section shows the Secure File Encryptor in action, walking through the process of selecting, encrypting, and decrypting a file.
 
 1. **First Example**: Select a file (e.g., `test.txt`) and enter a password to prepare for encryption. The file’s original content is shown on the right.  
-   ![First Example](images/example.png)
+   ![First Example](example.png)
 
 2. **Output**: After clicking "Encrypt File," the file is encrypted in place, and the original hash is saved. The file’s content is now unreadable encrypted data.  
    ![Output](images/output.png)
