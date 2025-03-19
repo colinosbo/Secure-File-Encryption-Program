@@ -38,7 +38,22 @@ Secure File Encryptor is a Python-based desktop application that allows users to
 
 ---
 
+## Visual Demonstration
+
+This section shows the Secure File Encryptor in action, walking through the process of selecting, encrypting, and decrypting a file.
+
+1. **Initial File Selection**: Select a file (e.g., `test.txt`) and enter a password to prepare for encryption. The file’s original content is shown on the right.  
+   ![Initial file selection](images/initial-selection.png)
+
+2. **Encryption**: After clicking "Encrypt File," the file is encrypted in place, and the original hash is saved. The file’s content is now unreadable encrypted data.  
+   ![Encryption process](images/encryption-process.png)
+
+3. **Decryption and Verification**: After selecting the encrypted file and entering the password, click "Decrypt File." The file is decrypted, and a success message confirms the hash matches, verifying integrity. The original content is restored.  
+   ![Decryption and verification](images/decryption-verification.png)
+
+---
+
 ## Technologies Used
 - **Python 3**: Core programming language.
 - **Tkinter**: Standard Python library for creating the graphical user interface (GUI).
-- **Cryptography**: Python library for secure encryption and key derivation (`Fernet`, `PBK
+- **Cryptography**: Python library for secure encryption and key derivation (`Fernet`, `PBKDF2`).
