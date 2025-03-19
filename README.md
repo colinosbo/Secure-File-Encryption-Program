@@ -46,10 +46,10 @@ This section shows the Secure File Encryptor in action, walking through the proc
    ![First Example](example.png)
 
 2. **Output**: After clicking "Encrypt File," the file is encrypted in place, and the original hash is saved. The file’s content is now unreadable encrypted data.  
-   ![Output](images/output.png)
+   ![Output](output.png)
 
 3. **Output 2**: After selecting the encrypted file and entering the password, click "Decrypt File." The file is decrypted, and a success message confirms the hash matches, verifying integrity. The original content is restored.  
-   ![Output 2](images/output2.png)
+   ![Output 2](output2.png)
 
 ---
 
